@@ -3,9 +3,9 @@
 $serverName = "localhost";
 $dBUserName = "root";
 $dBPassword = "";
-$dBName = "koronaLS";
+$dBName = "koronals";
 
-$conn = mysqli_connect($serverName,$dBUserName,$dBPasswordName,$dBName);
+$conn = mysqli_connect($serverName,$dBUserName,$dBPassword,$dBName);
 if(!$conn){
     die("Connection failed: " . mysqli_connect_error());
 }
